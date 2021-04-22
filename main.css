@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  background-color: #2f3336;
+  color: #efefef;
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+}
+#logotyp {
+  background-image: url("img/cartographer.png");
+  height: 138px;
+}
+
+h1.logo {
+  font-size: 44px;
+  font-weight: 700;
+  color: #ddd;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-top: 0px;
+  margin-bottom: 38px;
+  line-height: 132px;
+}
