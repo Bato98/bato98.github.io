@@ -14,13 +14,13 @@
     <meta name="author" content="Marek" />
 
     <meta http-equiv="X-Ua-Compatible" content="IE-edge,chrome=1" />
-    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="../main.css" />
 
     <link
       href="https://fonts.googleapis.com/css?family=Lato:400,700|Open+Sans&amp;subset=latin-ext"
       rel="stylesheet"
     />
-
+    <link rel="stylesheet" href="../lib/leaflet/leaflet.css" />
     <!--[if lt IE 9]>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
@@ -46,26 +46,12 @@
     </nav>
     <!--container-->
     <div class="categories">
-      <header>
-        <h1>Witaj na stronie!</h1>
-        <p>
-          Zapraszam do zapoznania się z materiałami umieszczonymi na stronie :)
-        </p>
-      </header>
-
-      <div class="subject">
-        <figure>
-          <a href="#"> <img src="img/ziemia.gif" /></a>
-        </figure>
-      </div>
-      <div class="subject">
-        <figure>
-          <a href="#"> <img src="img/Mars2.gif" /></a>
-        </figure>
-      </div>
       <div class="container">
-        <div id="”mymap”">Tu będzie mapa</div>
+        <div id="mymap">Tu będzie mapa</div>
       </div>
     </div>
+    <script src="../lib/leaflet/leaflet.js"></script>
+    <script src="../lib/jQuery.js"></script>
+    <script src="../main.js"></script>
   </body>
 </html>

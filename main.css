@@ -51,7 +51,8 @@ nav {
 }
 .subject {
   display: inline-block;
-  width: 400px;
+  width: auto;
+  height: auto;
 }
 img {
   max-width: 100%;
@@ -68,4 +69,8 @@ img {
 figure {
   margin: 8px;
   padding: 0px;
+}
+#mymap {
+  height: 70vh;
+  width: auto;
 }
