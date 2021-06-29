@@ -37,11 +37,24 @@ $(document).ready(function () {
         version: "1.1.1",
       }
     )),
+
+    (lyrMaz = L.tileLayer.wms(
+      "http://localhost:8080/geoserver/projekt_prge/wms",
+      {
+        layers: "projekt_prge:mazowieckie",
+        format: "image/png",
+        transparent: "true",
+        version: "1.1.1",
+      }
+    )),
+
+
     (baseMaps = {
       Openstreetmap: lyrOSM,
       lodzki: lyrPRG,
       topo: lyrTopo,
       sozo: lyrSozo,
+      maz: lyrMaz,
     });
 
   //polecenie dodania ikonki
